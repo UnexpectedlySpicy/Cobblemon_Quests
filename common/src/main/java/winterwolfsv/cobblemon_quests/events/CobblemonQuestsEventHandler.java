@@ -182,7 +182,7 @@ public class CobblemonQuestsEventHandler {
      * Player 1 gives pokemon 1 to player 2
      * Player 2 gives pokemon 2 to player 1
      */
-    private Unit pokemonTrade(TradeCompletedEvent tradeCompletedEvent) {
+    private Unit pokemonTrade(TradeEvent.Post tradeCompletedEvent) {
         try {
             Pokemon pokemonGivenByPlayer1 = tradeCompletedEvent.getTradeParticipant2Pokemon();
             Pokemon pokemonGivenByPlayer2 = tradeCompletedEvent.getTradeParticipant1Pokemon();
