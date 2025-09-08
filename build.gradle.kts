@@ -3,8 +3,8 @@ plugins {
     id("java-library")
     kotlin("jvm") version ("2.2.0")
 
-    id("dev.architectury.loom") version ("1.9-SNAPSHOT") apply false
-    id("architectury-plugin") version ("3.4-SNAPSHOT") apply false
+    id("dev.architectury.loom") version ("1.10-SNAPSHOT") apply false
+    id("architectury-plugin") version ("3.4-SNAPSHOT")
 }
 
 group = "${property("maven_group")}"
